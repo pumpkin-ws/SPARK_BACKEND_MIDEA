@@ -1,0 +1,11 @@
+/build/
+/build/**
+/build/*
+
+**/bin/**
+/bin/**
+
+**/lib/**
+/lib/**
+
+/.vscode/**

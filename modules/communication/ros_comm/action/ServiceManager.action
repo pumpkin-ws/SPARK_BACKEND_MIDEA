@@ -1,0 +1,11 @@
+#goal definition
+int32 manager_task_type
+string PCB_template_name
+float64 speed_ratio
+---
+#result definition
+float64[6] current_joints
+float64[7] current_pos
+---
+#feedback definition
+int32 feedback

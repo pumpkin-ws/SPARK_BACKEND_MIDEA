@@ -1,0 +1,7 @@
+add_subdirectory(${CMAKE_CURRENT_LIST_DIR}/communication/)
+add_subdirectory(${CMAKE_CURRENT_LIST_DIR}/vision/)
+add_subdirectory(${CMAKE_CURRENT_LIST_DIR}/robot/)
+add_subdirectory(${CMAKE_CURRENT_LIST_DIR}/filesystem/)
+add_subdirectory(${CMAKE_CURRENT_LIST_DIR}/math/)
+add_subdirectory(${CMAKE_CURRENT_LIST_DIR}/profiling/)
+add_subdirectory(${CMAKE_CURRENT_LIST_DIR}/io/)

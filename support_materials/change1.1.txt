@@ -1,0 +1,26 @@
+cmakelist要将eigen(find和include_dictionaries)，不然找不到，之后#include 要加个eigen3/Eigen/Core
+	modules-vision-tracker-CMAKELISTS.txt
+apps-visionapps-vision_services.cpp中285行major直接初始化报错，莫名其妙，赋值就不报错
+我的opencv4应该是没装全，找不到aruco，现在是把traker的cmake的opencv版本改成了3，回头重装一下4
+spark_service_manager.hpp、move_robot.cpp、front_end_simulator.cpp需要包含mutex头文件
+
+-------------------------------------------------------------------------------------
+改了AuboServer,AuboUtils,AuboMover的构造函数与析构函数，以及修改相应的成员变量，目的是为了可以在调用时修改地址等信息，以及可以实例化多个机器人。
+
+AuboServer增加两个函数用于改通讯架构，.h与.cpp都有改
+.cpp还在goalCB中加了一个MoveType是GET_AUBO_MSG的情况
+
+RobotService.action的result中增加了两项
+
+common.h增加了Runtimer类
+MoveType中增加了成员GET_AUBO_MSG
+
+spark_service_manager.h
+增加了成员变量 m_robot_num
+删了Struct AuboMessage, void auboMsgCallback(), void auboMsgSubscriber()
+很多函数增加了参数actionlib::SimpleActionClient<spark_backend::RobotServiceAction> * ac_ptr
+其他改了也很多，主要就是两件事，一个是通讯结构，一个是可以增加机器人数量
+
+
+
+

@@ -1,0 +1,7 @@
+The service manager should be reading the YAML file, unparse the YAML file, and generate motion 
+sequences based on the YAML file. 
+
+For now, write the work flow into the service manager directly. 
+
+The service manager should be an action server; at the same time, the service manager can be clients to the 
+fundamental services!

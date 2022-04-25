@@ -1,0 +1,3 @@
+This folder contains vision modules for this project. 
+
+vision_services.cpp will be the place to modify for project specific needs.

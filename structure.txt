@@ -1,0 +1,41 @@
+root
+├── 3rdparty
+│   └── aubo_sdk
+├── apps
+│   ├── math
+│   ├── media
+│   ├── message
+│   ├── robotapps
+│   ├── service_manager
+│   └── visionapps
+├── bin
+│   ├── media
+│   ├── message
+│   ├── robot
+│   ├── service_manager
+│   └── vision
+├── common
+│   └── gripper
+├── lib
+│   ├── filesystem
+│   ├── math
+│   ├── robot
+│   ├── service_manager
+│   └── vision
+├── modules
+│   ├── communication
+│   ├── filesystem
+│   ├── gripper
+│   ├── io
+│   ├── lib
+│   ├── math
+│   ├── robot
+│   ├── ros
+│   └── vision
+├── ros
+│   ├── include
+│   ├── lib
+│   └── share
+├── support_materials
+└── test
+

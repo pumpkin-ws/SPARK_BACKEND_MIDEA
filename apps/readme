@@ -1,0 +1,10 @@
+This folders contains the ros service applications, including
+1 - the robot + gripper service
+2 - the vision service
+3 - the robot status service (publish the robot io and status through publisher/subscriber services)
+4 - the image/point cloud publisher service
+
+media: the media streams, including image stream and point cloud stream. 
+    - eih stream stands for eye-in-hand stream
+    - eth stream stands for eye-to-hand stream
+

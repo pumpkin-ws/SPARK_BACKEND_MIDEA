@@ -1,0 +1,47 @@
+The file structure of spark backend mimics that of OpenCV's. 
+
+MODULES:
+The different modules used for spark backend include
+	- vision
+	   - camera
+	   - cv algorithms from opencv and halcon
+	- robot
+	   - aubo
+	   - elite
+	- io
+	- gripper
+APPS:
+	- image and point cloud publisher for eye in hand camera
+	- image and point cloud publisher for eye to hand camera
+	- vision services executable
+	- robot services executable
+	- 
+INCLUDE:
+	- the overall project include header
+	- the common variables that is shared by all programs
+	
+	
+2021-4-25
+
+To use spark FCT, start the following programs:
+1 - The robot server
+2 - The vision server
+3 - The service manager
+4 - The robot info stream publisher
+5 - The eye-in-hand media stream publisher
+6 - The front end simulator
+
+2021-10-21
+
+I should consider using the worker boss multithreading structure. The boss will be monitoring the id's and notify the worker,
+depending on the status of the worker. If the worker is free, then work should be performed. If the worker is busy, the boss will wait until the worker becomes and then make the notification. 
+
+2021-12-6
+The first time building, use make, don't make -j12
+
+2022-4-20
+PLC signals
+Gripper open: 102, 6, 0; Gripper close: 102, 6, 1
+
+2022-4-21
+visual detection and pick up and flip board sequence disabled. 

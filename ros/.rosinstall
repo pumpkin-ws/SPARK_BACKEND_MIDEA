@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/ws/spark-projects/midea_pcb_2022/fct/spark_backend/ros/setup.sh

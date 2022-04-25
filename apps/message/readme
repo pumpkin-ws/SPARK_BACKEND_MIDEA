@@ -1,0 +1,12 @@
+The application in this folder will be publishing messages other than the message from 
+vision or from robot. The messages published from vision and robot should be handled by the 
+vision and robot applications. 
+
+The messages include messages from the rig or messages from the central control!
+
+The joints are passed back as a vector of 6 values, with index 0 representing joint 0, and index 5 presenting joint 6.
+
+The waypoints are passed back as a vector of 7 values, the first three values represent the x, y, z. and the last 4 values 
+are the rotation. The rotation pose is represented as a quaternion, w, x, y, z.
+
+

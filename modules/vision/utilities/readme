@@ -1,0 +1,2 @@
+Functions that do not directly relate to image process, but serve as aids in computer vision tasks,
+like OpenCV to Halcon data type conversion. 

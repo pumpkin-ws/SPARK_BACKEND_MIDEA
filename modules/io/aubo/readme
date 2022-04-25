@@ -1,0 +1,5 @@
+Read and write pin to the aubo controller
+The io here uses only the aubo sdk.
+The message publication service will be written as an application. 
+Mind that the robot can only be connected once. 
+The front end should really interface more with the robot service. Vision will serve as a service provider.  

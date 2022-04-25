@@ -1,0 +1,5 @@
+add_subdirectory(${CMAKE_CURRENT_LIST_DIR}/media/)
+add_subdirectory(${CMAKE_CURRENT_LIST_DIR}/visionapps/)
+add_subdirectory(${CMAKE_CURRENT_LIST_DIR}/robotapps/)
+add_subdirectory(${CMAKE_CURRENT_LIST_DIR}/message/)
+add_subdirectory(${CMAKE_CURRENT_LIST_DIR}/service_manager/)

@@ -1,0 +1,5 @@
+add_subdirectory(${CMAKE_CURRENT_LIST_DIR}/camera/)
+add_subdirectory(${CMAKE_CURRENT_LIST_DIR}/tracker/)
+add_subdirectory(${CMAKE_CURRENT_LIST_DIR}/utilities/)
+add_subdirectory(${CMAKE_CURRENT_LIST_DIR}/imgproc/)
+add_subdirectory(${CMAKE_CURRENT_LIST_DIR}/calibration/)

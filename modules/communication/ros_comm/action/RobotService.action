@@ -1,0 +1,26 @@
+# goal definition
+int32 goal
+int32 move_type
+bool set_fraction
+float32 move_rate
+bool use_joint
+float64[6] move_joint_pos
+float64[6] move_line_pos
+int32 num_of_track_points
+float64[] move_track_pos
+float64[6] current_joints
+int16 io_type
+float32 pin_num
+int32 DO_value
+---
+# result definition
+bool has_arrived
+int32 io_state
+int32 DO_set_status
+int32 robot_state
+float32[] joint_vals
+float32[] waypoint_values
+bool get_data
+---
+# feedback
+int32 data

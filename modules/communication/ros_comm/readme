@@ -1,0 +1,2 @@
+This folder generates the ros specified messages to the project source directory, and the path is
+${PROJECT_SOURCE_DIR}/ros/

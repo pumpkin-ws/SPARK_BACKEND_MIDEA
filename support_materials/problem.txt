@@ -1,0 +1,11 @@
+目前vison_services中VisionTasks的3D部分代码是空的
+
+robot_services中取数据的部分getAuboMsg不知道会不会有问题
+
+注意各种文件都在另一台电脑Document/Spark下面
+
+VisionService.action的result中要注意其实有很多工艺相关的内容要添加
+
+注意区分不同的result
+
+注意偏置问题放到vision_Services里处理，不要放到servicemanager里
