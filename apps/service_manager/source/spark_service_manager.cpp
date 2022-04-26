@@ -2729,7 +2729,6 @@ void manager::urgentTest(std::string template_name) {
     }
     
     // track object with template name
-
 }
 
 bool manager::cartesianMoveJointServerCall(const std::vector<double> position, const double& speed_ratio,
